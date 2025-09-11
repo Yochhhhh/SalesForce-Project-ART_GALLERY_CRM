@@ -1,0 +1,53 @@
+Non-profit organizations, NGOs, and charitable trusts often face challenges in tracking donations, managing donors, and reporting contributions. Manual processes make it difficult to maintain transparency, send receipts, and analyze the impact of donations.
+
+To address this, the goal of this project is to build a Donation Management System on Salesforce that:
+
+🎯 Objectives
+
+Allows donors to make donations easily through a simple web form (LWC).
+
+Stores donor details, donation records, and causes in Salesforce.
+
+Automates thank-you emails with donation receipts using Salesforce Flow.
+
+Provides reports and dashboards to analyze donations by cause, donor, and time period.
+
+Helps organizations maintain transparency, improve donor relationships, and track fundraising goals.
+
+🛠️ Features
+
+Custom Objects
+
+Donor__c → Stores donor details.
+
+Donation__c → Tracks each donation transaction.
+
+Cause__c → Represents the campaign/cause receiving donations.
+
+Automation
+
+Record-Triggered Flow: Sends a thank-you email receipt when a donation is completed.
+
+User Interface (LWC)
+
+A Donation Form for entering donor email, amount, and cause.
+
+Submits data to Salesforce using an Apex Controller.
+
+Analytics
+
+Reports for donations by cause, top donors, and monthly trends.
+
+Dashboard for real-time insights.
+
+Scalability Enhancements (Optional)
+
+Donor leaderboard (gamification).
+
+Experience Cloud site for external donors.
+
+Badges/recognition for donors.
+
+💡 Impact
+
+This project simplifies donation tracking for non-profits, improves donor engagement through automated communication, and provides actionable insights via Salesforce dashboards.
