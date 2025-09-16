@@ -1,53 +1,17 @@
-Non-profit organizations, NGOs, and charitable trusts often face challenges in tracking donations, managing donors, and reporting contributions. Manual processes make it difficult to maintain transparency, send receipts, and analyze the impact of donations.
+Problem Statement – Art Gallery CRM
 
-To address this, the goal of this project is to build a Donation Management System on Salesforce that:
+Art galleries face a unique challenge: while they thrive on creativity and cultural value, their day-to-day operations often remain fragmented and inefficient. Exhibition planning, artist management, artwork inventory, visitor registrations, and sales tracking are typically handled through spreadsheets, emails, or even paper records. This leads to lost opportunities, manual errors in calculating artist commissions, difficulty in monitoring artwork availability, and lack of insights into visitor engagement or sales performance.
 
-🎯 Objectives
+To address this gap, the Art Gallery CRM leverages Salesforce to provide a unified, intelligent platform tailored for the art industry. Unlike generic CRMs, this solution is designed specifically for galleries, enabling them to:
 
-Allows donors to make donations easily through a simple web form (LWC).
+Digitally catalogue artists and artworks with rich media, provenance details, and dynamic availability status.
 
-Stores donor details, donation records, and causes in Salesforce.
+Manage exhibitions end-to-end — from scheduling and artwork allocation to monitoring attendance.
 
-Automates thank-you emails with donation receipts using Salesforce Flow.
+Automate sales workflows by instantly updating artwork status, calculating artist commissions, and generating notifications for curators, finance teams, and artists.
 
-Provides reports and dashboards to analyze donations by cause, donor, and time period.
+Streamline visitor engagement through registration management, automated confirmations, and personalized follow-up communication.
 
-Helps organizations maintain transparency, improve donor relationships, and track fundraising goals.
+Deliver actionable insights through dashboards that highlight top-selling artists, exhibition success metrics, and visitor demographics.
 
-🛠️ Features
-
-Custom Objects
-
-Donor__c → Stores donor details.
-
-Donation__c → Tracks each donation transaction.
-
-Cause__c → Represents the campaign/cause receiving donations.
-
-Automation
-
-Record-Triggered Flow: Sends a thank-you email receipt when a donation is completed.
-
-User Interface (LWC)
-
-A Donation Form for entering donor email, amount, and cause.
-
-Submits data to Salesforce using an Apex Controller.
-
-Analytics
-
-Reports for donations by cause, top donors, and monthly trends.
-
-Dashboard for real-time insights.
-
-Scalability Enhancements (Optional)
-
-Donor leaderboard (gamification).
-
-Experience Cloud site for external donors.
-
-Badges/recognition for donors.
-
-💡 Impact
-
-This project simplifies donation tracking for non-profits, improves donor engagement through automated communication, and provides actionable insights via Salesforce dashboards.
+By introducing automation, analytics, and a centralized data model, this project not only reduces operational complexity for galleries but also empowers them to strengthen artist relationships, enhance visitor experience, and make data-driven cultural and business decisions.
