@@ -1,55 +1,92 @@
-🚩PROBLEM STATEMENT
+🚩Problem Statement – Art Gallery CRM
 
--Non-profit organizations, NGOs, and charitable trusts often face challenges in tracking donations, managing donors, and reporting contributions. Manual processes make it difficult to maintain transparency, send receipts, and analyze the impact of donations.
+- Art galleries face a unique challenge: while they thrive on creativity and cultural value, their day-to-day operations often remain fragmented and inefficient. 
+  Exhibition planning, artist management, artwork inventory, visitor registrations, and sales tracking are typically handled through spreadsheets, emails, or even 
+  paper records. 
+- This leads to lost opportunities, manual errors in calculating artist commissions, difficulty in monitoring artwork availability, and lack of insights into 
+  visitor engagement or sales performance.
 
--To address this, the goal of this project is to build a Donation Management System on Salesforce that:
+- To address this gap, the Art Gallery CRM leverages Salesforce to provide a unified, intelligent platform tailored for the art industry. Unlike generic CRMs,
+  this solution is designed specifically for galleries, enabling them to:
 
-🎯 Objectives
+- Digitally catalogue artists and artworks with rich media, provenance details, and dynamic availability status.
 
--Allows donors to make donations easily through a simple web form (LWC).
+- Manage exhibitions end-to-end — from scheduling and artwork allocation to monitoring attendance.
 
--Stores donor details, donation records, and causes in Salesforce.
+- Automate sales workflows by instantly updating artwork status, calculating artist commissions, and generating notifications for curators, finance teams, and artists.
 
--Automates thank-you emails with donation receipts using Salesforce Flow.
+- Streamline visitor engagement through registration management, automated confirmations, and personalized follow-up communication.
 
--Provides reports and dashboards to analyze donations by cause, donor, and time period.
+- Deliver actionable insights through dashboards that highlight top-selling artists, exhibition success metrics, and visitor demographics.
 
--Helps organizations maintain transparency, improve donor relationships, and track fundraising goals.
+- By introducing automation, analytics, and a centralized data model, this project not only reduces operational complexity for galleries but also empowers them to strengthen 
+  artist relationships, enhance visitor experience, and make data-driven cultural and business decisions.
 
-🛠️ Features
+🎇Project Objectives
 
-Custom Objects
+- The Art Gallery CRM project is designed with the following objectives:
 
--Donor__c → Stores donor details.
+- Centralized Management – Provide a unified Salesforce-based platform to manage artists, artworks, exhibitions, sales, and visitor data seamlessly.
 
--Donation__c → Tracks each donation transaction.
+- Process Automation – Eliminate manual errors by automating critical workflows such as artwork status updates, commission calculations, and visitor 
+  registration confirmations.
 
--Cause__c → Represents the campaign/cause receiving donations.
+- Enhanced Visitor Engagement – Capture and track visitor registrations, preferences, and event attendance to build stronger relationships and improve outreach.
 
-Automation
+- Data-Driven Decision Making – Deliver real-time dashboards and reports for curators, sales teams, and finance staff to evaluate exhibition performance,
+  sales trends, and visitor engagement.
 
--Record-Triggered Flow: Sends a thank-you email receipt when a donation is completed.
+- Scalability & Extensibility – Ensure the solution can be extended in the future with features like online ticket booking, integration with payment gateways, 
+  or even digital artwork (NFT) sales.
 
-User Interface (LWC)
+🎐Project Scope
 
--A Donation Form for entering donor email, amount, and cause.
+- The scope of the Art Gallery CRM covers the following functional areas:
 
--Submits data to Salesforce using an Apex Controller.
+Artist & Artwork Management
 
-Analytics
+- Maintain detailed artist profiles, including biography, contact details, and commission rates.
 
--Reports for donations by cause, top donors, and monthly trends.
+- Catalogue artworks with images, pricing, provenance, and exhibition history.
 
--Dashboard for real-time insights.
+- Track artwork availability and status (Available, Reserved, On Loan, Sold).
 
-Scalability Enhancements (Optional)
+Exhibition Management
 
--Donor leaderboard (gamification).
+- Create and manage exhibitions with dates, location, and participating artists/artworks.
 
--Experience Cloud site for external donors.
+- Track exhibition status (Planned, Running, Closed).
 
--Badges/recognition for donors.
+- Monitor visitor registrations and attendance.
 
-💡 Impact
+Sales & Commission Tracking
 
--This project simplifies donation tracking for non-profits, improves donor engagement through automated communication, and provides actionable insights via Salesforce dashboards.
+- Record artwork sales with buyer details and sale price.
+
+- Automate calculation of artist and gallery commissions.
+
+- Update artwork status automatically upon sale completion.
+
+Visitor Registration & Engagement
+
+- Capture visitor details and exhibition registrations.
+
+- Send automated confirmation emails and reminders.
+
+- Track attendance and follow-up engagement.
+
+Reporting & Dashboards
+
+- Sales performance by artist, artwork, and exhibition.
+
+- Artwork inventory reports (available vs sold).
+
+- Visitor trends and engagement analytics.
+
+- Commission summaries for finance and artists.
+
+User Roles & Security
+
+- Provide different access levels for curators, sales staff, finance teams, and administrators.
+
+- Optionally enable a secure public portal for visitor registrations.
