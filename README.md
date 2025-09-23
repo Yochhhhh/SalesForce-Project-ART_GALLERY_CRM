@@ -1,3 +1,7 @@
+Documentation:
+
+[ART_GALLERY _CRM.docx](https://github.com/user-attachments/files/22501813/ART_GALLERY._CRM.docx)
+
 Problem Statement – Art Gallery CRM
 
 Art galleries face a unique challenge: while they thrive on creativity and cultural value, their day-to-day operations often remain fragmented and inefficient. Exhibition planning, artist management, artwork inventory, visitor registrations, and sales tracking are typically handled through spreadsheets, emails, or even paper records. This leads to lost opportunities, manual errors in calculating artist commissions, difficulty in monitoring artwork availability, and lack of insights into visitor engagement or sales performance.
