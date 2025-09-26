@@ -1,6 +1,7 @@
 Documentation:
 
-[ART_GALLERY _CRM.docx](https://github.com/user-attachments/files/22501813/ART_GALLERY._CRM.docx)
+[ART_GALLERY _CRM.docx](https://github.com/user-attachments/files/22562866/ART_GALLERY._CRM.docx)
+
 
 Problem Statement – Art Gallery CRM
 
